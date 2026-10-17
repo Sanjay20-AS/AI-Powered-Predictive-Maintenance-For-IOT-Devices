@@ -1,0 +1,47 @@
+{
+  "test_rows": 1200,
+  "failure_rate_test": 0.25666666666666665,
+  "roc_auc": 0.8953176867975073,
+  "average_precision": 0.7685481454558777,
+  "precision_at_0_5": 0.6540697674418605,
+  "recall_at_0_5": 0.7305194805194806,
+  "f1_at_0_5": 0.6901840490797546,
+  "confusion_matrix_labels_0_1": [
+    [
+      773,
+      119
+    ],
+    [
+      83,
+      225
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9030373831775701,
+      "recall": 0.8665919282511211,
+      "f1-score": 0.8844393592677345,
+      "support": 892.0
+    },
+    "1": {
+      "precision": 0.6540697674418605,
+      "recall": 0.7305194805194806,
+      "f1-score": 0.6901840490797546,
+      "support": 308.0
+    },
+    "accuracy": 0.8316666666666667,
+    "macro avg": {
+      "precision": 0.7785535753097153,
+      "recall": 0.7985557043853009,
+      "f1-score": 0.7873117041737445,
+      "support": 1200.0
+    },
+    "weighted avg": {
+      "precision": 0.839135695138738,
+      "recall": 0.8316666666666667,
+      "f1-score": 0.8345804963194864,
+      "support": 1200.0
+    }
+  },
+  "note": "Synthetic simulated data; metrics demonstrate workflow only, not production performance."
+}
